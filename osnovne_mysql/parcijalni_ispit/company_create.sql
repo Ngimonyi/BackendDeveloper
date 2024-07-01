@@ -45,13 +45,13 @@ CREATE TABLE IF NOT EXISTS department_leaders (
 
 -- Insert data into employees table
 INSERT INTO employees (first_name, last_name, address, phone_number, email, salary) VALUES
-    ('John', 'Doe', '123 Main St', '555-1234', 'john.doe@example.com', 850.00),
+    ('Ndaroi', 'Domo', '123 Main St', '555-1234', 'john.doe@example.com', 1000.00),
     ('Jane', 'Smith', '456 Oak Ave', '555-5678', 'jane.smith@example.com', 950.00),
     ('Michael', 'Johnson', '789 Elm Blvd', '555-9012', 'michael.johnson@example.com', 1050.00),
-    ('Emily', 'Williams', '101 Pine Rd', '555-3456', 'emily.williams@example.com', 1550.00),
-    ('David', 'Brown', '202 Cedar Dr', '555-7890', 'david.brown@example.com', 1000.00),
-    ('Sarah', 'Jones', '303 Birch Ln', '555-2345', 'sarah.jones@example.com', 900.00),
-    ('Daniel', 'Garcia', '404 Maple Ct', '555-6789', 'daniel.garcia@example.com', 1030.00),
+    ('Emily', 'Williams', '101 Pine Rd', '555-3456', 'emily.williams@example.com', 1050.00),
+    ('David', 'Brown', '202 Cedar Dr', '555-7890', 'david.brown@example.com', 1050.00),
+    ('Sarah', 'Jones', '303 Birch Ln', '555-2345', 'sarah.jones@example.com', 700.00),
+    ('Daniel', 'Garcia', '404 Maple Ct', '555-6789', 'daniel.garcia@example.com', 1050.00),
     ('Maria', 'Martinez', '505 Pineapple Dr', '555-4321', 'maria.martinez@example.com', 1200.00),
     ('Christopher', 'Davis', '606 Orange Blvd', '555-8765', 'christopher.davis@example.com', 1500.00),
     ('Jessica', 'Rodriguez', '707 Apple St', '555-2109', 'jessica.rodriguez@example.com', 700.00),
@@ -90,7 +90,7 @@ INSERT INTO department_leaders (department_id, leader_id) VALUES
     (4, 8), -- Warehouse led by Maria Martinez
     (5, 9); -- IT led by Christopher Davis
 
--- Step 5: Perform Queries
+
 
 -- Retrieve all employees and their salaries
 SELECT CONCAT(first_name, ' ', last_name) AS 'Full Name', salary AS 'Salary'
