@@ -1,0 +1,7 @@
+{
+    "require": {
+        "psr/log": "^3.0",
+        "psr/container": "^2.0",
+        "guzzlehttp/psr7": "^2.6"
+    }
+}
